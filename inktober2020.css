@@ -1,0 +1,63 @@
+/*
+  Couleurs utilisées :
+    rose foncé : #E65F5C
+    bleu nuit : #070212
+    Vert pistache : #91C76B
+    Blanc ivoir : #ECF0BC
+    Jaune : #FFFF82
+*/
+
+body{
+  background-color: #070212;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+@font-face {
+  font-family: "Babyblocks";
+  src : url("babyblocks.ttf");
+}
+
+@font-face
+{
+  font-family: "UbuntuMono";
+  src: url("UbuntuMono-Regular.ttf");
+}
+
+h1{
+  color: #E65F5C;
+  font-family: "Babyblocks";
+  font-size: 400%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2{
+  color: #91C76B;
+  font-family: "UbuntuMono";
+  font-size: 120%;
+  text-align: left;
+}
+
+p{
+  color: #ECF0BC;
+  font-family: "UbuntuMono";
+}
+
+table{
+  width: 100%;
+}
+
+tr{
+  border: 5px;
+}
+
+td{
+  border: 5px;
+  vertical-align: top;
+}
+
+img{
+  width: 300px;
+  text-align: center;
+}
